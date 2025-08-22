@@ -1,0 +1,13 @@
+{
+  "name": "wallhaven-api-proxy",
+  "version": "1.0.0",
+  "description": "A Vercel API proxy for Wallhaven API with filters",
+  "main": "api/wallpapers.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.1"
+  },
+  "type": "module"
+}
