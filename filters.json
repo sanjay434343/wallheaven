@@ -1,0 +1,14 @@
+{
+  "q": "string (tag/keyword query)",
+  "categories": "100/101/111* (general/anime/people, use 111 for all)",
+  "purity": "100*/110/111 (sfw/sketchy/nsfw), 100 = SFW only",
+  "sorting": "date_added*, relevance, random, views, favorites, toplist",
+  "order": "desc*, asc",
+  "topRange": "1d, 3d, 1w, 1M*, 3M, 6M, 1y (only with sorting=toplist)",
+  "atleast": "minimum resolution (e.g. 1920x1080)",
+  "resolutions": "list of exact resolutions, e.g. 1920x1080,2560x1440",
+  "ratios": "aspect ratios, e.g. 16x9,16x10",
+  "colors": "hex colors without #, e.g. 660000, 0066cc",
+  "page": "integer >= 1",
+  "seed": "6 char alphanumeric (for random sorting)"
+}
